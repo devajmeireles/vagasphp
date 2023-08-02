@@ -1,0 +1,90 @@
+<?php
+
+namespace App\Enums;
+
+use App\Enums\Traits\ToArray;
+
+enum JobRequirements: string
+{
+    use ToArray;
+
+    case PHP                  = 'PHP';
+    case PHP7                 = 'PHP 7';
+    case PHP8                 = 'PHP 8';
+    case Laravel              = 'Laravel';
+    case LiveWire             = 'Livewire';
+    case InertiaJs            = 'Inertia';
+    case TallStack            = 'Tall Stack';
+    case CodeIgniter          = 'CodeIgniter';
+    case Symfony              = 'Symfony';
+    case CakePhp              = 'CakePhp';
+    case Yii                  = 'Yii';
+    case WordPress            = 'WordPress';
+    case WHMCS                = 'WHMCS';
+    case Elementor            = 'Elementor';
+    case ZendFramework        = 'Zend Framework';
+    case Laminas              = 'Laminas';
+    case Drupal               = 'Drupal';
+    case Magento              = 'Magento';
+    case PrestaShop           = 'PrestaShop';
+    case Api                  = 'API';
+    case ApiRest              = 'API Rest';
+    case RestFull             = 'RestFULL';
+    case Html                 = 'HTML';
+    case Css                  = 'CSS';
+    case TailwindCss          = 'Tailwind CSS';
+    case Bootstrap            = 'Bootstrap';
+    case jQuery               = 'jQuery';
+    case AlpineJs             = 'AlpineJs';
+    case VueJs                = 'Vues';
+    case ReactJs              = 'Reacts';
+    case AngularJs            = 'Angular';
+    case JavaScript           = 'JavaScript';
+    case TypeScript           = 'TypeScript';
+    case MariaDB              = 'MariaDB';
+    case MySQL                = 'MySQL';
+    case PostgreSQL           = 'PostgreSQL';
+    case Redis                = 'Redis';
+    case MongoDB              = 'MongoDB';
+    case Sqlite               = 'SQLite';
+    case Docker               = 'Docker';
+    case Kubernetes           = 'Kubernetes';
+    case AWS                  = 'AWS';
+    case cPanel               = 'cPanel';
+    case PhpMyAdmin           = 'PhpMyAdmin';
+    case GoogleCloudPlataform = 'Google Cloud Plataform';
+    case Azure                = 'Azure';
+    case Git                  = 'Git';
+    case GitHub               = 'GitHub';
+    case GitLab               = 'GitLab';
+    case BitBucket            = 'BitBucket';
+    case Jira                 = 'Jira';
+    case Confluence           = 'Confluence';
+    case RabbitMQ             = 'RabbitMQ';
+    case Kafka                = 'Kafka';
+    case Linux                = 'Linux';
+    case OO                   = 'Orientação a Objetos';
+    case Solid                = 'SOLID';
+    case TDD                  = 'TDD';
+    case DDD                  = 'DDD';
+    case PhpUnit              = 'PhpUnit';
+    case Pest                 = 'Pest';
+    case CleanCode            = 'Clean Code';
+    case CleanArch            = 'Clean Architecture';
+    case DesignPatt           = 'Design Patterns';
+    case Scrum                = 'Scrum';
+    case Kanban               = 'Kanban';
+    case Agile                = 'Agile';
+    case DevOps               = 'DevOps';
+    case CI                   = 'CI / CD';
+    case SaaS                 = 'SaaS';
+    case Microservices        = 'Micro Serviços';
+    case Serverless           = 'Serverless';
+    case Postman              = 'Postman';
+    case Insonmia             = 'Insonmia';
+    case Swagger              = 'Swagger';
+    case OpenApi              = 'OpenApi';
+    case GraphQL              = 'GraphQL';
+    case WebSockets           = 'WebSockets';
+    case WebRTC               = 'WebRTC';
+}
